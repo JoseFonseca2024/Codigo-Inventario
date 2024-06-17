@@ -124,12 +124,6 @@ public class App {
                 }
                 leer.nextLine();  // Limpiar el buffer
     
-                System.out.println("Nueva descripción: ");
-                String nuevades = leer.nextLine();
-                if (!nuevades.isEmpty()) {
-                    producto.Desc = nuevades;
-                }
-    
                 System.out.println("Producto modificado");
             } else {
                 System.out.println("Producto no encontrado. Intente nuevamente.");
